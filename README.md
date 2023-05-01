@@ -1,6 +1,10 @@
-# Sass Boilerplate With Python
+# Sass Boilerplate With Python - For MAC OS
 
 This Python Script creates a projects folder with the recommended SASS-7-1-pattern architecture and runs npm install for you. So you're ready to code in no time!
+
+# System
+The script runs on Mac OS.
+You need to have node.js installed. Otherwise the command npm install won't work.
 
 # How to use
 1. Download the python file and move it to the folder where you're creating your projects
