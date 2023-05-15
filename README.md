@@ -19,11 +19,10 @@ The script creates the following project folder and files for you:<br>
 
 ```
 root (your projectname)
-|
+| -- node_modules
 | -- src
 	|
 	| -- index.html
-	| -- style.scss
 	| -- package.json	
 	|
 	| -- assets
@@ -32,6 +31,8 @@ root (your projectname)
 		| -- fonts
 		| -- js
 	| -- sass
+		| -- style.scss
+		|
 		| -- abstracts
 			| -- _icons.scss
 			| -- _colors.scss
@@ -60,6 +61,7 @@ root (your projectname)
 			| -- _dark-theme.scss	
 		| -- vendor
 | -- public
+	| -- style.css
 	|
 	| -- assets
 		| -- images
