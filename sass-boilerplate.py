@@ -207,10 +207,13 @@ style.write("@use '../themes/light-theme';\n")
 style.write("@use '../themes/dark-theme';\n")
 style.close()
 
+# go back to root
+os.chdir("../")
+
 # crate package.json-file
 packageJson = open("package.json", "w")
 packageJson.write('{\n')
-packageJson.write('\t"name": "sass boilerplate",\n')
+packageJson.write('\t"name": "sass-boilerplate",\n')
 packageJson.write('\t "version": "0.1.0",\n')
 packageJson.write('\t"description": "SASS compile|autoprefix|minimize and live-reload dev server using Browsersync for static HTML",\n')
 packageJson.write('\t "main": "public/index.html",\n')
@@ -242,6 +245,7 @@ packageJson.write('\t\t"sass": "^1.49.8"\n')
 packageJson.write('\t}\n')
 packageJson.write('}\n')
 packageJson.close()
+
 
 # chek if node is installed
 subprocess.call(["npm","install"])
